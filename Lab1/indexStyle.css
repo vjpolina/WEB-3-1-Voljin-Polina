@@ -1,0 +1,94 @@
+#headerMotto{
+    display:flex;
+    align-self: center;
+    justify-self: center;
+
+    font-style: italic;
+    color: #959595;
+
+    margin-top:1%;
+}
+
+.mainBody{
+    display: block;
+    background: linear-gradient(to top, #d1d1d1, #adadad);
+    width: 1600px;
+    height:800px;
+    border-radius: 10px;
+
+    align-self: center;
+    justify-self: center;
+
+    margin-top:20px;
+}
+
+#heroImage{
+    position: fixed;
+    bottom:0;
+    right:0;
+
+    height:99.5%;
+
+    transform: translateY(4.5%);
+    margin-right: -1%;
+}
+
+footer{
+    display:flex;
+    align-self: center;
+    justify-self: center;
+
+    font-style: italic;
+    color: #959595;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.textBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+
+    margin-left:10%;
+}
+
+.textBody{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+    padding-top: 15%;
+}
+
+#mainTitle{
+    margin:0;
+    font-size: 100px;
+}
+
+#mainSubtitle{
+    margin-top:-10px;
+    font-size: 40px;
+}
+
+.pageCreate{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    width:700px;
+    height:50px;
+    border: solid 2px #acacac;
+}
+
+#preText{
+    margin-left:25px;
+    font-size:22px;
+    margin-right:25px;
+
+    border-right: solid 2px #acacac;
+}
+
+#editableText{
+}
