@@ -15,6 +15,7 @@
     width: 1600px;
     height:800px;
     border-radius: 10px;
+    position: relative;
 
     align-self: center;
     justify-self: center;
@@ -23,14 +24,14 @@
 }
 
 #heroImage{
-    position: fixed;
+    position: absolute;
     bottom:0;
     right:0;
 
-    height:99.5%;
+    height:108%;
 
-    transform: translateY(4.5%);
-    margin-right: -1%;
+    transform: translateY(10%);
+    margin-right: -10%;
 }
 
 footer{
@@ -82,13 +83,50 @@ footer{
     border: solid 2px #acacac;
 }
 
-#preText{
-    margin-left:25px;
+.createText{
     font-size:22px;
-    margin-right:25px;
+    font-style: italic;
+    display: flex;
+    position: relative;
+    width: 700px;
+}
 
-    border-right: solid 2px #acacac;
+.createText a{
+    margin-left:25px;
+    margin-right:25px;
 }
 
 #editableText{
+    color:#adadad;
+}
+
+#redirectButton{
+    border: none;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    background: none;
+
+    position: absolute;
+    right: 0;
+    padding-right: 25px;
+    margin-top: -12.5px;
+    padding-left: 30px;
+
+    border-left: solid 2px #acacac;
+
+    height: 50px;
+    z-index: 1;
+}
+
+#redirectButton:hover{
+    background-color: #e3e3e379;
+    cursor: pointer;
+
+    overflow: hidden;
+    border-radius: 0 10px 10px 0;
+}
+
+.instructionText{
+    padding-top:4%;
+    font-size: 22px;
 }
