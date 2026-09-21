@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab3</title>
+</head>
+<body>
+    <h1>Rock, paper, scissors!</h1>
+
+    <div class="gameScore">
+        <p>Tu: <span id="playerScore">0</span></p>
+        <p>Calculator: <span id="computerScore">0</span></p>
+        <p>Egalități: <span id="drawScore">0</span></p>
+        <p>Runde jucate: <span id="totalRounds">0</span></p>
+    </div>
+    <p id="leaderMessage">Scorul este egal.</p>
+
+    <div class="gameInterface">
+        <div class="playerOptions">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+
+        <div class="playerChoice">
+            <p>Alegerea ta:</p>
+            <a id="playerChoiceText">...</a>
+        </div>
+
+        <div class="computerChoice">
+            <p>Calculatorul:</p>
+            <a id="computerChoiceText">...</a>
+        </div>
+
+        <div class="gameResult">
+            <a id="gameResultText"></a>
+        </div>
+    </div>
+
+    <p id="finalMessage"></p>
+    <button id="gameReset">Joc nou</button>
+
+<script src="script.js"></script>
+</body>
+</html>

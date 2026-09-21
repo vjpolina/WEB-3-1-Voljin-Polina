@@ -1,0 +1,72 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    display:flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.gameScore{
+    display: flex;
+    gap: 24px;
+    font-weight: bold;
+}
+
+.gameInterface{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.playerOptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.playerOptions button{
+    width: 120px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.playerOptions button:disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.playerChoice, .computerChoice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameResult{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.gameResult .win{ color: green; }
+.gameResult .lose{ color: crimson; }
+.gameResult .draw{ color: darkgoldenrod; }
+
+#finalMessage{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#gameReset{
+    padding: 10px 20px;
+    cursor: pointer;
+}
