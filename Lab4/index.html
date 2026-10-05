@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab4</title>
+</head>
+<body>
+
+  <h2>Lista de cumpărături</h2>
+  <input type="text" id="produs" placeholder="Produs">
+  <button onclick="adaugaLaSfarsit()">Adaugă la sfârșit</button>
+  <button onclick="adaugaLaInceput()">Adaugă la început</button>
+  <br><br>
+  <button onclick="stergePrimul()">Șterge primul</button>
+  <button onclick="stergeUltimul()">Șterge ultimul</button>
+  <p id="listaProduse"></p>
+
+  <h2>CATALOG ELECTRONIC</h2>
+  <p id="numarElevi"></p>
+  <div id="catalog"></div>
+
+  <h3>Adaugă elev</h3>
+  Nume: <input type="text" id="nume"><br><br>
+  Vârsta: <input type="number" id="varsta"><br><br>
+  Nota: <input type="number" id="nota"><br><br>
+  <button onclick="adaugaElev()">Adaugă elev</button>
+
+  <h3>Șterge elev</h3>
+  Numele elevului: <input type="text" id="numeSterge">
+  <button onclick="stergeElev()">Șterge elev</button>
+
+  <h3>Caută elev</h3>
+  Caută elev: <input type="text" id="numeCauta">
+  <button onclick="cautaElev()">Caută</button>
+  <p id="rezultatCautare"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
