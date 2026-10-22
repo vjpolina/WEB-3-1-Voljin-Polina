@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#studentList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 16px;
+  min-height: 300px;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.student {
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.student-img {
+  width: 60px;
+  height: 60px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.c-type {
+  color: #666;
+  margin-bottom: 0;
+}
+
+.c-value {
+  margin-top: 0;
+}
+
+#select {
+  margin-top: 20px;
+}
+
+#select input, #select select, #select button {
+  margin: 3px;
+  padding: 5px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+#error {
+  color: red;
+}

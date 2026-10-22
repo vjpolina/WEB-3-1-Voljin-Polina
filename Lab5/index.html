@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <p>Număr studenți: <span id="count">0</span></p>
+    <div id="studentList"></div>
+
+    <div id="select">
+      <form id="addElev">
+        <input placeholder="Nume" type="text" id="lastname">
+        <input placeholder="Prenume" type="text" id="firstname">
+        <input placeholder="Varsta" type="text" id="age">
+        <input placeholder="Specialitate" type="text" id="specialty">
+        <input placeholder="Clasa" type="text" id="group">
+        <button type="submit">Elev +</button>
+        <p id="error"></p>
+      </form>
+      <div id="styles">
+        <label for="justify-content">Justify-content</label>
+        <select id="justify-content">
+          <option value="flex-start">Flex-start</option>
+          <option value="center">Center</option>
+          <option value="flex-end">Flex-end</option>
+          <option value="space-between">Space-between</option>
+          <option value="space-around">Space-around</option>
+          <option value="space-evenly">Space-evenly</option>
+        </select>
+        <label for="align-items">Align-items</label>
+        <select id="align-items">
+          <option value="stretch">Stretch</option>
+          <option value="flex-start">Flex-start</option>
+          <option value="center">Center</option>
+          <option value="flex-end">Flex-end</option>
+        </select>
+        <div class="flex">
+          <p>Flex-wrap</p>
+          <input type="checkbox" id="wrap" checked>
+        </div>
+        <div class="flex">
+          <p>Gap:</p>
+          <input type="number" id="numberIn" value="16">
+          <input type="submit" id="submitNumber">
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
